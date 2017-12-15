@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+	font-family:Avenir,
+	            "Open Sans",
+				"Helvetica Neue",
+				Helvetica,
+				Arial,
+				Verdana,
+				Roboto,
+				"游ゴシック",
+				"Yu Gothic",
+				"游ゴシック体",
+				"YuGothic",
+				"ヒラギノ角ゴ Pro W3",
+				"Hiragino Kaku Gothic Pro",
+				"Meiryo UI",
+				"メイリオ",
+				Meiryo,
+				"ＭＳ Ｐゴシック",
+				"MS PGothic",
+				sans-serif;
+	color: #000000;
+	background-color: #deedf1;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	/*
+	float: left;
+	clear: left;
+	*/
+	float: none;
+	clear: left;
+	list-style-type : none;
+}
+
+li {
+	width: 150px;
+	font-size: 12px;
+	/*
+	font-size:small;
+	*/
+	font-weight: bold;
+	background-color: #b0c4de;
+	border-bottom: 1px solid #3689a5;
+	border-right: 1px solid #3689a5;
+	border-left: 1px solid #3689a5;
+}
+
+tr {
+	/*
+	border-bottom: 1px solid #b0c4de;
+	border-right: 1px solid #b0c4de;
+	border-left: 1px solid #b0c4de;
+	*/
+	border-bottom: 1px solid #778899;
+	border-right: 1px solid #778899;
+	border-left: 1px solid #778899;
+}
+
+/*
+a {
+	width: 120px;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+}
+*/
